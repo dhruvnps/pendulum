@@ -8,4 +8,4 @@ var bg = svg
     .append('g')
     .attr('class', 'bg')
 
-p1 = new Pendulum('silver', 10, 1, Math.random() / 10)
+pendulum1 = new Pendulum('silver', 10, 1, Math.random() / 10)
