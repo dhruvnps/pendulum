@@ -17,8 +17,8 @@ var c1 = svg.append('circle').style('fill', 'black')
 var c2 = svg.append('circle').style('fill', 'black')
 
 
-var r1 = 125
-var r2 = 125
+var r1 = (Math.min(width, height) / 4) - 10
+var r2 = (Math.min(width, height) / 4) - 10
 var m1 = 5
 var m2 = 5
 var a1 = Math.PI / 2
